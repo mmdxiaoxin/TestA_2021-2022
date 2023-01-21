@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d788ce5-0445-4314-82fd-d199e13d847c" name="变更" comment="work1完成">
-      <change afterPath="$PROJECT_DIR$/source/test01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work2/workTest.java" afterDir="false" />
+    <list default="true" id="1d788ce5-0445-4314-82fd-d199e13d847c" name="变更" comment="work2完成">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/work3/workTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestA_2021-2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestA_2021-2022.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +39,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/mycode/JAVA/textbook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/mycode/JAVA/ExperimentJDBC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mycode\JAVA\TestA_2021-2022" />
       <recent name="D:\mycode\JAVA\TestA_2021-2022\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -63,13 +71,26 @@
       <recent name="D:\mycode\JAVA\TestA_2021-2022\.idea\copy" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.work2.workTest">
+  <component name="RunManager" selected="应用程序.work3.workTest">
     <configuration name="work2.workTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work2.workTest" />
       <module name="TestA_2021-2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="work2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="work3.workTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work3.workTest" />
+      <module name="TestA_2021-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.work3.workTest" />
         <item itemvalue="应用程序.work2.workTest" />
         <item itemvalue="应用程序.workTest" />
       </list>
@@ -108,7 +130,9 @@
       <workItem from="1674205464265" duration="5423000" />
       <workItem from="1674214068795" duration="835000" />
       <workItem from="1674214913858" duration="102000" />
-      <workItem from="1674215024852" duration="1150000" />
+      <workItem from="1674215024852" duration="1394000" />
+      <workItem from="1674219675634" duration="644000" />
+      <workItem from="1674289392807" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1674205625374</created>
@@ -124,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674207606753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="work2完成">
+      <created>1674219445213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674219445213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +187,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
     <MESSAGE value="work1完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="work1完成" />
+    <MESSAGE value="work2完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="work2完成" />
   </component>
 </project>
