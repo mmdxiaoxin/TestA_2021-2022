@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d788ce5-0445-4314-82fd-d199e13d847c" name="变更" comment="work2完成">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work3/workTest.java" afterDir="false" />
+    <list default="true" id="1d788ce5-0445-4314-82fd-d199e13d847c" name="变更" comment="work4完成">
+      <change afterPath="$PROJECT_DIR$/src/work4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/work4/ClientFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/work4/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/work4/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestA_2021-2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestA_2021-2022.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2KaGpIEMxC1IFj4bQhvzcOB1FOx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,29 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/mycode/JAVA/ExperimentJDBC",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mycode/JAVA/TestA_2021-2022&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="work4" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mycode\JAVA\TestA_2021-2022" />
       <recent name="D:\mycode\JAVA\TestA_2021-2022\src" />
@@ -71,13 +77,13 @@
       <recent name="D:\mycode\JAVA\TestA_2021-2022\.idea\copy" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.work3.workTest">
-    <configuration name="work2.workTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work2.workTest" />
+  <component name="RunManager" selected="应用程序.Server">
+    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work4.ClientFrame" />
       <module name="TestA_2021-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work2.*" />
+          <option name="PATTERN" value="work4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="work3.workTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work3.workTest" />
+    <configuration name="Server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work4.Server" />
       <module name="TestA_2021-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work3.*" />
+          <option name="PATTERN" value="work4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +104,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="workTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work1.workTest" />
+    <configuration name="Server (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work4.Server" />
       <module name="TestA_2021-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work1.*" />
+          <option name="PATTERN" value="work4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work4.Server" />
+      <module name="TestA_2021-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work4.Server" />
+      <module name="TestA_2021-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,9 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.work3.workTest" />
-        <item itemvalue="应用程序.work2.workTest" />
-        <item itemvalue="应用程序.workTest" />
+        <item itemvalue="应用程序.ClientFrame" />
+        <item itemvalue="应用程序.Server" />
+        <item itemvalue="应用程序.Server (4)" />
+        <item itemvalue="应用程序.Server (3)" />
+        <item itemvalue="应用程序.Server (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +166,12 @@
       <workItem from="1674214913858" duration="102000" />
       <workItem from="1674215024852" duration="1394000" />
       <workItem from="1674219675634" duration="644000" />
-      <workItem from="1674289392807" duration="3393000" />
+      <workItem from="1674289392807" duration="3605000" />
+      <workItem from="1674651423425" duration="11000" />
+      <workItem from="1674653223039" duration="5311000" />
+      <workItem from="1674711170963" duration="3654000" />
+      <workItem from="1674715145975" duration="1055000" />
+      <workItem from="1674716210637" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1674205625374</created>
@@ -155,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674219445213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work3完成">
+      <created>1674294141835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674294141835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +234,8 @@
     <MESSAGE value="创建项目" />
     <MESSAGE value="work1完成" />
     <MESSAGE value="work2完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="work2完成" />
+    <MESSAGE value="work3完成" />
+    <MESSAGE value="work4完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="work4完成" />
   </component>
 </project>
